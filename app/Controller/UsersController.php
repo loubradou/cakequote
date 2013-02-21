@@ -27,7 +27,7 @@ class UsersController extends AppController {
                                 return true;
 
                         }else{
-                                $this->Session->setFlash('Try harder my dear');
+                                $this->Session->setFlash('Try harder');
                         }
                 }
 
@@ -41,7 +41,7 @@ class UsersController extends AppController {
         public function login(){
             if ($this->request->is('post')) {
                 if ($this->Auth->login()) {
-                    $this->redirect($this->Auth->redirect());
+                    $this->redirect($this->Auth->redirect('/'));
                 } else {
                     $this->Session->setFlash('Invalid username, try again');
                 }
@@ -50,7 +50,7 @@ class UsersController extends AppController {
 
 
         public function logout(){
-                $this->Session->setFlash('Bye bye fellow');
+                $this->Session->setFlash('Bye bye','default',array('class'=>'success'));
                 $this->redirect($this->Auth->logout());
         }
 
@@ -90,7 +90,7 @@ class UsersController extends AppController {
                         $this->User->create();
                         if ($this->User->save($this->request->data)) {
                                 $this->Session->setFlash(__('The user has been saved'));
-                                $this->redirect(array('action' => 'index'));
+                                $this->redirect('/users/login');
                         } else {
                                 $this->Session->setFlash(__('The user could not be saved. Please, try again.'));
                         }

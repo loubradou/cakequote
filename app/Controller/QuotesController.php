@@ -50,7 +50,7 @@ class QuotesController extends AppController {
  */
         public function view($id = null) {
                 if (!$this->Quote->exists($id)) {
-                        throw new NotFoundException(__('Invalid quote'));
+                        throw new NotFoundException(__('Invalid poop thought'));
                 }
                 $options = array('conditions' => array('Quote.' . $this->Quote->primaryKey => $id));
                 $this->set('quote', $this->Quote->find('first', $options));
@@ -67,10 +67,10 @@ class QuotesController extends AppController {
                         $this->request->data['Quote']['user_id'] = $this->Auth->user('id');
 
                         if ($this->Quote->save($this->request->data)) {
-                                $this->Session->setFlash(__('The quote has been saved'));
+                                $this->Session->setFlash(__('The poop thought has been saved'));
                                 $this->redirect(array('action' => 'index'));
                         } else {
-                                $this->Session->setFlash(__('The quote could not be saved. Please, try again.'));
+                                $this->Session->setFlash(__('The poop thought could not be saved. Please, try again.'));
                         }
                 }
                 $users = $this->Quote->User->find('list');
@@ -86,14 +86,14 @@ class QuotesController extends AppController {
  */
         public function edit($id = null) {
                 if (!$this->Quote->exists($id)) {
-                        throw new NotFoundException(__('Invalid quote'));
+                        throw new NotFoundException(__('Invalid poop thought'));
                 }
                 if ($this->request->is('post') || $this->request->is('put')) {
                         if ($this->Quote->save($this->request->data)) {
-                                $this->Session->setFlash(__('The quote has been saved'));
+                                $this->Session->setFlash(__('The poop thought has been saved'));
                                 $this->redirect(array('action' => 'index'));
                         } else {
-                                $this->Session->setFlash(__('The quote could not be saved. Please, try again.'));
+                                $this->Session->setFlash(__('The poop thought could not be saved. Please, try again.'));
                         }
                 } else {
                         $options = array('conditions' => array('Quote.' . $this->Quote->primaryKey => $id));
@@ -114,15 +114,17 @@ class QuotesController extends AppController {
         public function delete($id = null) {
                 $this->Quote->id = $id;
                 if (!$this->Quote->exists()) {
-                        throw new NotFoundException(__('Invalid quote'));
+                        throw new NotFoundException(__('Invalid poop thought'));
                 }
                 $this->request->onlyAllow('post', 'delete');
                 if ($this->Quote->delete()) {
-                        $this->Session->setFlash(__('Quote deleted'));
+                        $this->Session->setFlash(__('Poop thought deleted'));
                         $this->redirect(array('action' => 'index'));
                 }
-                $this->Session->setFlash(__('Quote was not deleted'));
+                else{
+                $this->Session->setFlash(__('Poop thought was not deleted'));
                 $this->redirect(array('action' => 'index'));
+                }
         }
 
 /**
@@ -144,7 +146,7 @@ class QuotesController extends AppController {
  */
         public function admin_view($id = null) {
                 if (!$this->Quote->exists($id)) {
-                        throw new NotFoundException(__('Invalid quote'));
+                        throw new NotFoundException(__('Invalid poop thought'));
                 }
                 $options = array('conditions' => array('Quote.' . $this->Quote->primaryKey => $id));
                 $this->set('quote', $this->Quote->find('first', $options));
@@ -159,10 +161,10 @@ class QuotesController extends AppController {
                 if ($this->request->is('post')) {
                         $this->Quote->create();
                         if ($this->Quote->save($this->request->data)) {
-                                $this->Session->setFlash(__('The quote has been saved'));
+                                $this->Session->setFlash(__('The poop thought has been saved'));
                                 $this->redirect(array('action' => 'index'));
                         } else {
-                                $this->Session->setFlash(__('The quote could not be saved. Please, try again.'));
+                                $this->Session->setFlash(__('The poop thought could not be saved. Please, try again.'));
                         }
                 }
                 $users = $this->Quote->User->find('list');
@@ -182,10 +184,10 @@ class QuotesController extends AppController {
                 }
                 if ($this->request->is('post') || $this->request->is('put')) {
                         if ($this->Quote->save($this->request->data)) {
-                                $this->Session->setFlash(__('The quote has been saved'));
+                                $this->Session->setFlash(__('The poop thought has been saved'));
                                 $this->redirect(array('action' => 'index'));
                         } else {
-                                $this->Session->setFlash(__('The quote could not be saved. Please, try again.'));
+                                $this->Session->setFlash(__('The poop thought could not be saved. Please, try again.'));
                         }
                 } else {
                         $options = array('conditions' => array('Quote.' . $this->Quote->primaryKey => $id));
@@ -206,14 +208,14 @@ class QuotesController extends AppController {
         public function admin_delete($id = null) {
                 $this->Quote->id = $id;
                 if (!$this->Quote->exists()) {
-                        throw new NotFoundException(__('Invalid quote'));
+                        throw new NotFoundException(__('Invalid poop thought'));
                 }
                 $this->request->onlyAllow('post', 'delete');
                 if ($this->Quote->delete()) {
-                        $this->Session->setFlash(__('Quote deleted'));
+                        $this->Session->setFlash(__('Poop thought deleted'));
                         $this->redirect(array('action' => 'index'));
                 }
-                $this->Session->setFlash(__('Quote was not deleted'));
+                $this->Session->setFlash(__('Poop thought was not deleted'));
                 $this->redirect(array('action' => 'index'));
         }
 }
