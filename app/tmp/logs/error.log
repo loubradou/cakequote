@@ -124,3 +124,250 @@ Stack Trace:
 #3 C:\wamp\www\cakequote\lib\Cake\Core\App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-02-20 16:35:55 Error: [MissingActionException] Action GroupsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroupsController',
+  'action' => 'index',
+)
+Request URL: /cakequote/groups
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakequote\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakequote\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-20 16:36:00 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/admin
+Stack Trace:
+#0 C:\wamp\www\cakequote\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-20 16:58:13 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [C:\wamp\www\cakequote\app\Controller\UsersController.php, line 17]
+2013-02-20 16:58:13 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /cakequote/users
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 17, Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 17, Array)
+#3 C:\wamp\www\cakequote\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 16:58:55 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [C:\wamp\www\cakequote\app\Controller\UsersController.php, line 17]
+2013-02-20 16:58:55 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /cakequote/users
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 17, Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 17, Array)
+#3 C:\wamp\www\cakequote\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 17:00:12 Error: Fatal Error (4): syntax error, unexpected ':' in [C:\wamp\www\cakequote\app\Controller\UsersController.php, line 18]
+2013-02-20 17:00:12 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /cakequote/users
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 18, Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 18, Array)
+#3 C:\wamp\www\cakequote\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 17:00:27 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [C:\wamp\www\cakequote\app\Controller\UsersController.php, line 21]
+2013-02-20 17:00:27 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /cakequote/users
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 21, Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 21, Array)
+#3 C:\wamp\www\cakequote\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 17:00:47 Error: Fatal Error (4): syntax error, unexpected ':' in [C:\wamp\www\cakequote\app\Controller\UsersController.php, line 35]
+2013-02-20 17:00:47 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /cakequote/users
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 35, Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 35, Array)
+#3 C:\wamp\www\cakequote\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 17:01:31 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakequote/users/logout
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(444): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(406): AuthComponent->constructAuthorize()
+#3 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(335): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 C:\wamp\www\cakequote\lib\Cake\Utility\ObjectCollection.php(131): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp\www\cakequote\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp\www\cakequote\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp\www\cakequote\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#10 C:\wamp\www\cakequote\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\cakequote\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-02-20 17:01:43 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakequote/users/logout
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(444): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(406): AuthComponent->constructAuthorize()
+#3 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(335): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 C:\wamp\www\cakequote\lib\Cake\Utility\ObjectCollection.php(131): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp\www\cakequote\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp\www\cakequote\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp\www\cakequote\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#10 C:\wamp\www\cakequote\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\cakequote\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-02-20 17:01:46 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakequote/users/logout
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(444): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(406): AuthComponent->constructAuthorize()
+#3 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(335): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 C:\wamp\www\cakequote\lib\Cake\Utility\ObjectCollection.php(131): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp\www\cakequote\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp\www\cakequote\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp\www\cakequote\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#10 C:\wamp\www\cakequote\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\cakequote\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-02-20 17:20:48 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakequote/users/logout
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(444): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(406): AuthComponent->constructAuthorize()
+#3 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(335): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 C:\wamp\www\cakequote\lib\Cake\Utility\ObjectCollection.php(131): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp\www\cakequote\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp\www\cakequote\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp\www\cakequote\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#10 C:\wamp\www\cakequote\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\cakequote\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-02-20 17:28:11 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\wamp\www\cakequote\app\Controller\QuotesController.php, line 21]
+2013-02-20 17:28:11 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /cakequote/
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 21, Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 21, Array)
+#3 C:\wamp\www\cakequote\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 17:28:47 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakequote/quotes/edit/3
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(QuotesController))
+#1 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(444): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(406): AuthComponent->constructAuthorize()
+#3 C:\wamp\www\cakequote\lib\Cake\Controller\Component\AuthComponent.php(335): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(QuotesController))
+#5 C:\wamp\www\cakequote\lib\Cake\Utility\ObjectCollection.php(131): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp\www\cakequote\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp\www\cakequote\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp\www\cakequote\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#10 C:\wamp\www\cakequote\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(QuotesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\cakequote\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-02-20 17:39:10 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [C:\wamp\www\cakequote\app\Controller\QuotesController.php, line 44]
+2013-02-20 17:39:10 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /cakequote/quotes/edit/3
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 44, Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 44, Array)
+#3 C:\wamp\www\cakequote\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 17:39:54 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [C:\wamp\www\cakequote\app\Controller\QuotesController.php, line 42]
+2013-02-20 17:39:54 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /cakequote/quotes/edit/3
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#3 C:\wamp\www\cakequote\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 17:40:08 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [C:\wamp\www\cakequote\app\Controller\QuotesController.php, line 42]
+2013-02-20 17:40:08 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /cakequote/quotes/edit/3
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#3 C:\wamp\www\cakequote\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 17:41:50 Error: [MissingControllerException] Controller class QuotesController could not be found.
+Exception Attributes: array (
+  'class' => 'QuotesController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/quotes/edit/3
+Stack Trace:
+#0 C:\wamp\www\cakequote\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-20 17:41:56 Error: [MissingControllerException] Controller class QuotesController could not be found.
+Exception Attributes: array (
+  'class' => 'QuotesController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/quotes/
+Stack Trace:
+#0 C:\wamp\www\cakequote\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-20 17:42:05 Error: [MissingControllerException] Controller class QuotesController could not be found.
+Exception Attributes: array (
+  'class' => 'QuotesController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/quotes/
+Stack Trace:
+#0 C:\wamp\www\cakequote\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-20 17:51:42 Error: Fatal Error (4): syntax error, unexpected T_EXIT in [C:\wamp\www\cakequote\app\Controller\QuotesController.php, line 68]
+2013-02-20 17:51:42 Error: [FatalErrorException] syntax error, unexpected T_EXIT
+Request URL: /cakequote/quotes/add
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 68, Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 68, Array)
+#3 C:\wamp\www\cakequote\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 18:02:52 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [C:\wamp\www\cakequote\app\Controller\AppController.php, line 25]
+2013-02-20 18:02:52 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /cakequote/
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 25, Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 25, Array)
+#3 C:\wamp\www\cakequote\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 18:03:05 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [C:\wamp\www\cakequote\app\Controller\AppController.php, line 25]
+2013-02-20 18:03:05 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /cakequote/
+Stack Trace:
+#0 C:\wamp\www\cakequote\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 25, Array)
+#2 C:\wamp\www\cakequote\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 25, Array)
+#3 C:\wamp\www\cakequote\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
