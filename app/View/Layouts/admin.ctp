@@ -9,27 +9,26 @@
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css('cake.generic');
+		echo $this->Html->css('style');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
 </head>
-<body>
+<body class="admin">
 	<div id="container">
 		<div id="header" class="admin">
-			<h1>admin:<?php echo $this->Html->link('cakequote', '/'); ?></h1>
+			<h1><?php echo $this->Html->link('Poop thoughts', '/'); ?></h1>
 		</div>
-		<div id="content">
+		<div id="content" class="admin">
 
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
 		</div>
-		<div id="footer">
-			coded with love
+		<div id="footer" class="admin">
 		</div>
 	</div>
-	<?php echo $this->element('sql_dump'); ?>
 </body>
 </html>

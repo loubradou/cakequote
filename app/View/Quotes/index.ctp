@@ -25,8 +25,14 @@
 <div class="actions">
 	<ul>
 		<?php if($me['id']<=0): ?>
-		<li><?php echo $this->Html->link(__("Sign up"), array('controller' => 'users', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__("Login"), array('controller' => 'users', 'action' => 'login')); ?> </li>
+			<li><?php echo $this->Html->link(__("Sign up"), array('controller' => 'users', 'action' => 'add')); ?>
+				<?php echo $this->Html->link(__("Login"), array('controller' => 'users', 'action' => 'login')); ?> 
+			</li>
+		<?php else: ?>
+			<li>
+				<?php echo $this->Html->link(__("My profile"), array('controller' => 'users', 'action' => 'edit')); ?>
+				<?php echo $this->Html->link("Logout", array('controller' => 'users', 'action' => 'logout')); ?> 
+			</li>
 		<?php endif; ?>
 		<li><?php echo $this->Html->link(__('Share your poop thought'), array('action' => 'add')); ?></li>
 

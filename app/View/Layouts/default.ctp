@@ -46,7 +46,7 @@
 				
 				<?php if($me['id']>0): ?>
 				<?php echo "Hello ".$me['username']; ?>
-				<div><?php echo $this->Html->link("logout", '/users/logout'); ?></div>
+
 			<?php endif; ?>
 		</h2>
 

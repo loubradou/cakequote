@@ -22,6 +22,7 @@ class UsersController extends AppController {
 
                 if ($this->action == 'edit') {
                         $user_id = $this->request->params['pass'][0];
+
                         $me_id = $this->Auth->user('id');
                         if($me_id == $user_id){
                                 return true;
@@ -41,7 +42,11 @@ class UsersController extends AppController {
         public function login(){
             if ($this->request->is('post')) {
                 if ($this->Auth->login()) {
-                    $this->redirect($this->Auth->redirect('/'));
+                    $me_admin = $this->Auth->user('group_id');
+                    if($me_admin == "1"){
+                        $this->redirect($this->Auth->redirect('/admin/users'));
+                    }
+                        $this->redirect($this->Auth->redirect('/'));
                 } else {
                     $this->Session->setFlash('Invalid username, try again');
                 }

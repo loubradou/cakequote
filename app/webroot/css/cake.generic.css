@@ -29,6 +29,11 @@ body {
 	font-size:90%;
 	margin: 0;
 }
+body.admin{
+	background: #a00;
+
+
+}
 a {
 	color: #003d4c;
 	text-decoration: none;
@@ -114,6 +119,10 @@ p {
 	clear: both;
 	padding: 6px 10px;
 	text-align: right;
+}
+#footer.admin {
+	background-color: #a00;
+
 }
 
 /** containers **/

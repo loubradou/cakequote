@@ -2,12 +2,13 @@
 	<h2><?php echo __('Users'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
+			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('username'); ?></th>
 			<th><?php echo $this->Paginator->sort('password'); ?></th>
 			<th><?php echo $this->Paginator->sort('email'); ?></th>
 			<th><?php echo $this->Paginator->sort('group_id'); ?></th>
-			<th><?php echo $this->Paginator->sort('created'); ?></th>
+
 			<th><?php echo $this->Paginator->sort('updated'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
