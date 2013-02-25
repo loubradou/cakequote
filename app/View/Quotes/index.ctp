@@ -30,7 +30,7 @@
 			</li>
 		<?php else: ?>
 			<li>
-				<?php echo $this->Html->link(__("My profile"), array('controller' => 'users', 'action' => 'edit')); ?>
+				<?php echo $this->Html->link(__("My profile"), array('controller' => 'users', 'action' => 'view',$quote['User']['id'])); ?>
 				<?php echo $this->Html->link("Logout", array('controller' => 'users', 'action' => 'logout')); ?> 
 			</li>
 		<?php endif; ?>

@@ -92,7 +92,7 @@ p {
 	padding-top:100px;
 	text-align: center;
 }
-#header h1 a {
+#header h1 a{
 	color: #fff;
 	background: #BAE2F5;
 	font-family: Adobe Song Std L;
@@ -100,7 +100,7 @@ p {
 	text-decoration: none;
 
 }
-#header h1 a:hover {
+#header h1 a:hover{
 	color: #F2F2F2;
 	background: #BAE2F5;
 	text-decoration: none;
